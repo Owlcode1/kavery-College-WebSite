@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Kavery College</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--header section-->
+    <section class="header">
+      <nav>
+        <a href="#"><img src="image/banner.jpg.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="intex.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>The Kavery Engineering <span>College</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+          quia iusto earum incidunt pariatur perspiciatis<br />
+          animi distinctio repellendus hic dolore.
+        </p>
+        <a href="college.html" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+    <!--register-->
+    <div class="row">
+      <div class="blog-left">
+        <div class="comment-box1">
+          <h3>Register<span> Now</span></h3>
+          <form class="comment-form">
+            <input type="text" placeholder="enter name" required />
+            <input type="email" placeholder="enter email" required />
+            <input type="number" placeholder="enter mobile no" required />
+
+            <input type="text" placeholder="enter your city" required />
+            <textarea rows="10" placeholder="your comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <section class="footer">
+      <h4><span>About Us</span></h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim expedita
+        iste dicta soluta quia deleniti adipisci ratione at, vero, <br />fugit
+        pariatur velit quisquam vel nihil placeat veniam officia facere nulla.
+      </p>
+      <div class="icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <p>Made With <i class="far fa-copyright"></i> by TwarFamily</p>
+    </section>
+
+    <!--javascript for toggle menu-->
+    <script src="script.js">
+    				</script>
+  </body>
+</html>
